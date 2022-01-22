@@ -1,0 +1,90 @@
+<!-- WELCOME PAGE -->
+
+<style>
+
+.signUp{
+  background: #0021A5;
+     height:100%;
+     width: 650px;
+     position:absolute;
+ 
+}
+.welcome{
+     height:100%;
+     width:100%;
+     position:absolute;
+     padding-top: 200px;
+     padding-left: 0px;
+     text-align: center;
+ 
+}
+.btn{
+    font-family: 'Sanchez', serif;
+    position: absolute;
+    transition: .5s ease;
+    top: 350px; 
+    left: 275px;
+    z-index: 1;
+    border-radius: 8px;
+    webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white; 
+    color: orange;
+}
+.headerDivider {
+     border-left: 0px solid #FA4616; 
+     border-right: 5px solid #FA4616; 
+     height:100%;
+     position:absolute;
+     padding-left: 645px;
+} 
+.name{
+     height:100%;
+     position:absolute;
+     padding-left: 700px;
+     padding-top: 200px; 
+}
+.logo{
+     height:90%;
+     position:absolute;
+     padding-left: 850px;
+     padding-top: 325px; 
+}
+
+</style>
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwampHacks Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="stylefyle.css">
+</head>
+<body>
+  <div class="signUp">
+    <div class="welcome">
+      <h3 style="color:white">Welcome to</h1>
+      <p><h1 style="color:white">You Matter, We Connect</h1><p>
+      <p><h5 style="color:white"><i>Enhancing the student experience</i></h3><p>
+   </div>
+    <a href="Profile.html"><button type="button" class="btn btn-outline-darken" onclick="smoothScroll(document.getElementById('first'))"><strong>Sign Up</strong></button></a>
+  </div>
+<div class="headerDivider"></div>
+<div class="college">
+  <div class="name"><img src="img/UF.png" width="550" height="100"></div>
+  <div class="logo"><img src="img/gator1.png" width="250" height="150"></div>
+</div>
+</body>
+</html>
+
+
+
+

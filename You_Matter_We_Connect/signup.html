@@ -1,0 +1,130 @@
+<html>
+<style>
+* {box-sizing: border-box;}
+body {margin:0;font-family:Times New Roman}
+.topnav {
+ overflow: hidden;
+ background-color: #3F51B5;
+}
+.topnav a {
+ float: left;
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+.topnav a:hover {
+ background-color: #ddd;
+ color: orange;
+}
+.topnav a.active {
+ background-color: #2196F3;
+ color: orange;
+}
+.topnav input[type=text] {
+ float: center;
+ padding: 6px;
+ margin-top: 8px;
+ margin-left: 380px;
+ border: none;
+ font-size: 17px;
+}
+.topnav b {
+ float: right;
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+.topnav b:hover {
+ background-color: #ddd;
+ color: orange;
+}
+.topnav b.active {
+ background-color: #2196F3;
+ color: orange;
+}
+@media screen and (max-width: 600px) {
+ .topnav a,.topnav input[type=text], .topnav b {
+   float: right;
+   display: rectangle;
+   text-align: none;
+   width: 100%;
+   margin: 0;
+   padding: 14px;
+ }
+ .topnav input[type=text] {
+   border: 1px solid #ccc;
+ }
+}
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="stylefyle.css">
+</head>
+<body>
+    <div class="topnav">
+     <a class="active" a href="index.html"><img src="img/home.png" height="35" width="35"></a>
+     <a href="IndexContact.html">About </a>
+     <!--<b href="#profile">Profile</b>
+     <input type="text" placeholder="Search...">-->
+    </div>
+
+</body>
+
+<style type="text/css">
+
+            body {font-family:Arial, Sans-Serif;}
+
+            #container {width:300px; margin:0 auto;}
+
+            /* Nicely lines up the labels. */
+            form label {display:inline-block; width:140px;}
+
+            /* You could add a class to all the input boxes instead, if you like. That would be safer, and more backwards-compatible */
+            form input[type="text"],
+            form input[type="password"],
+            form input[type="email"] {width:160px;}
+
+            form .line {clear:both;}
+            form .line.submit {text-align:right;}
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <form>
+                <h1 style="text-align:center;">Sign Up!</h1>
+                <div class="line"><label for="username">Username *: </label><input type="text" id="username" /></div>
+                <div class="line"><label for="pwd">Password *: </label><input type="password" id="pwd" /></div>
+                <div class="line"><label for="pwd">Confirm *: </label><input type="password" id="pwd" /></div>
+
+                <div class="line"><label for="surname">Full Name *: </label><input type="text" id="surname" /></div>
+                <div class="line"><label for="dob">Date of Birth *: </label><input type="text" id="dob" /></div>
+                <div class="line"><label for="email">UF Email *: </label><input type="email" id="email" /></div>
+               
+                <div class="line submit"><a href="Profile.html"><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('first'))"><strong>Submit</strong></button></a></div>
+
+              <!--  <form action="hazardsform.php" method="POST"  />
+                  <p>ROUTE: <input type="text" name="ROUTE" /></p>
+                  <p>ADDRESS: <input type="text" name="ADDRESS" /></p>
+                  <p>LATITUDE: <input type="text" name="LATITUDE" /></p>
+                  <p>LONGITUDE: <input type="text" name="LONGITUDE" /></p>
+                  <p>HAZARD: <input type="text" name="HAZARD" /></p>
+                  <p>RISK: <input type="text" name="RISK" /></p>
+                  <input type="submit" value="Submit" /> -->               </form>
+                <p>Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!.</p>
+            </form>
+        </div>
+    </body>
+</html>
